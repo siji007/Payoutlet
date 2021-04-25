@@ -1,38 +1,115 @@
-.App {
-  text-align: center;
+#imgDiv{
+    /* background-color: red; */
+}
+#airtimeDiv{
+    border: 1px solid rgb(222, 209, 209);
+    border-radius: 10px;
+}
+#mtn{
+    width: 80px;
+    cursor: pointer;
+}
+#airtel{
+    width: 50px;
+    cursor: pointer;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#eti{
+    width: 80px;
+    cursor: pointer;
+}
+#glo{
+    width: 60px;
+    cursor: pointer;
+}
+#amount{
+    border-radius: 12px;
+}
+#amount:focus{
+    outline: none;
+}
+#mobileNumber{
+    border-radius: 12px;
+}
+#mobileNumber:focus{
+    outline:none;
+}
+#cardNumber{
+    border-radius: 12px;
+    width:400px;
+    outline: none;
+}
+#phoneNumber{
+    border-radius: 12px;
+    width:400px;
+    outline: none;
+}
+#continueBtn{
+    background-color: rgb(24, 5, 50);
+    border-radius: 12px;
+}
+#airtimeText{
+    padding-top: 70px;
+}
+#payWithDiv{
+    border: 1px solid rgb(222, 209, 209);
+    border-radius: 7px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#cardButton{
+    
+    color: white;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 7px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#pocketMoniBtn:hover{
+    
+    color: white;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 7px;
+    font: bold;
 }
-
-.App-link {
-  color: #61dafb;
+#otp{
+    outline: none;
+    border-radius: 12px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#poweredText{
+    position: absolute;
+    font-family: bold;
+    font-size: 25px;
+    left: 34%;
+    
+    top: 520px;
+}
+#paymentLogoDiv{
+    border: 1px solid rgb(222, 209, 209);
+    border-radius: 12px;
+    margin-top: 80px;
+    
+}
+#masterCardImg{
+    width: 70px;
+}
+#tryAgainBtn{
+    background-color: rgb(24, 5, 50);
+    border-radius: 12px;
+}
+#complaintBtn{
+    color: rgb(24, 5, 50);
+    border-radius: 12px;
+    border: 1px solid rgb(24, 5, 50);
+}
+#compaintBox{
+    border-radius: 12px;
+    outline: none;
+    border: 1px solid rgb(222, 209, 209);
 }
