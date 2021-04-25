@@ -39,7 +39,7 @@ const ValidatePayment = () => {
                                     <input style={{width:"400px"}} className=" border text-2xl w-full py-2 px-4 mt-2" type="number" id="otp" name="otp" placeholder="Enter OTP sent to your number."/>
                                 </div>
                                 <div>
-                                    <button id="continueBtn" className=" text-white w-full py-3 text-xl font-bold mt-4">Pay Now</button>
+                                    <button id="continueBtn" className=" text-white w-full py-3 text-xl font-bold mt-4"><Link to="/SuccessfulTransaction">Pay Now</Link></button>
                                 </div>
 
                                 <div id="paymentLogoDiv" className="flex justify-around">

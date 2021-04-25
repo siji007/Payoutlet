@@ -1,4 +1,5 @@
 import React,{Fragment} from 'react'
+import { Link } from 'react-router-dom'
 import "../App.css"
 
 const BuyAirtime = () => {
@@ -42,7 +43,7 @@ const BuyAirtime = () => {
                                 </div>
 
                                 <div>
-                                    <button id="continueBtn" className=" text-white w-full py-3 text-xl  mt-4">Continue</button>
+                                    <button id="continueBtn" className=" text-white w-full py-3 text-xl  mt-4"><Link to="/PocketMoni">Continue</Link></button>
                                 </div>
                             </div>
                         </form>
