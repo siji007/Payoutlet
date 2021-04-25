@@ -5,7 +5,7 @@ const PocketMoni = () => {
     return (
         <Fragment>
             <div className="row">
-                <div className="col-lg-5 col-md-12">
+                <div className="col-lg-5 col-md-12 col-sm-12">
                     <div className="min-h-screen  py-10 flex flex-col">
                         <form className="p-12 bg-white mx-auto my-10 shadow-lg rounded" action="#">
                             <div className="space-y-6 mb-2 ">
