@@ -1,5 +1,6 @@
 import React,{Fragment} from 'react'
 import "../App.css"
+import { Link } from 'react-router-dom'
 
 const FailedTransac = () => {
     return (
@@ -20,7 +21,7 @@ const FailedTransac = () => {
                                 </div>
 
                                 <div>
-                                    <button id="complaintBtn" className="w-full py-3 text-xl font-bold mt-4">File a Complaint</button>
+                                    <button id="complaintBtn" className="w-full py-3 text-xl font-bold mt-4"><Link to="/Report">File a Complaint</Link></button>
                                 </div>
 
                                 <div id="paymentLogoDiv" className="flex justify-around">

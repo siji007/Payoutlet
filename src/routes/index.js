@@ -12,7 +12,7 @@ const routes = () => {
     return (
         <Fragment>
             <Switch>
-                <Route exact path="/BuyAirtime" component={BuyAirtime}/>
+                <Route exact path="/" component={BuyAirtime}/>
                 <Route exact path="/PocketMoni" component={PocketMoni}/>
                 <Route exact path="/Card" component={Card}/>
                 <Route exact path="/ValidatePayment" component={ValidatePayment}/>

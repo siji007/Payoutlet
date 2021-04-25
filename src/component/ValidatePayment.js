@@ -1,4 +1,5 @@
 import React,{Fragment} from 'react'
+import { Link } from 'react-router-dom'
 import "../App.css"
 const ValidatePayment = () => {
     return (
@@ -39,7 +40,7 @@ const ValidatePayment = () => {
                                     <input style={{width:"400px"}} className=" border text-2xl w-full py-2 px-4 mt-2" type="number" id="otp" name="otp" placeholder="Enter OTP sent to your number."/>
                                 </div>
                                 <div>
-                                    <button id="continueBtn" className=" text-white w-full py-3 text-xl font-bold mt-4"><Link to="/SuccessfulTransaction">Pay Now</Link></button>
+                                    <button id="continueBtn" className=" text-white w-full py-3 text-xl font-bold mt-4"><Link to="/FailedTransaction">Pay Now</Link></button>
                                 </div>
 
                                 <div id="paymentLogoDiv" className="flex justify-around">
