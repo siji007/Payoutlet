@@ -1,11 +1,12 @@
 import React,{Fragment} from 'react'
 import { Link } from 'react-router-dom'
 import "../App.css"
+import "../css/Card.css"
 
 const Card = () => {
     return (
         <Fragment>
-            <div className="row">
+            <div className="row container">
                 <div className="col-lg-5 col-md-12 col-sm-12">
                     <div className="min-h-screen  py-10 flex flex-col">
                         <form className="p-12 bg-white mx-auto my-10 shadow-lg rounded" action="#">
@@ -32,7 +33,7 @@ const Card = () => {
                                         <button style={{backgroundColor:"rgb(24, 5, 50)"}} className="text-xl" id="cardButton">Card</button>
                                     </div>
                                     <div>
-                                        <button className="text-xl " id="pocketMoniBtn"> <Link to="/PocketMoni">Pocketmoni</Link></button>
+                                        <button className="text-xl " id="pocketMoniBtn"> <Link style={{textDecoration:"none",color:"rgb(24, 5, 50)"}} to="/PocketMoni">Pocketmoni</Link></button>
                                     </div>
                                 </div>
                                 <div>
@@ -52,7 +53,7 @@ const Card = () => {
                                 </div>
 
                                 <div>
-                                    <button id="continueBtn" className=" text-white w-full py-3 text-xl font-bold mt-4"><Link to="/ValidatePayment">Continue</Link></button>
+                                    <button id="continueBtn" className=" text-white w-full py-3 text-xl font-bold mt-4"><Link style={{textDecoration:"none",color:"white"}} to="/ValidatePayment">Continue</Link></button>
                                 </div>
                             </div>
 

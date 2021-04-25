@@ -5,7 +5,7 @@ import "../App.css"
 const BuyAirtime = () => {
     return (
         <Fragment>
-            <div className="row">
+            <div className="row container">
                 <div className="col-lg-5 col-md-12 col-sm-12">
                     <div className="min-h-screen  py-10 flex flex-col">
                         <form className="p-12 bg-white mx-auto my-10 shadow-lg rounded" action="#">
@@ -43,7 +43,7 @@ const BuyAirtime = () => {
                                 </div>
 
                                 <div>
-                                    <button id="continueBtn" className=" text-white w-full py-3 text-xl  mt-4"><Link to="/PocketMoni">Continue</Link></button>
+                                    <button id="continueBtn" className=" text-white w-full py-3 text-xl  mt-4"><Link style={{textDecoration:"none",color:"white"}} to="/PocketMoni">Continue</Link></button>
                                 </div>
                             </div>
                         </form>

@@ -4,7 +4,7 @@ import "../App.css"
 const PocketMoni = () => {
     return (
         <Fragment>
-            <div className="row">
+            <div className="row container">
                 <div className="col-lg-5 col-md-12 col-sm-12">
                     <div className="min-h-screen  py-10 flex flex-col">
                         <form className="p-12 bg-white mx-auto my-10 shadow-lg rounded" action="#">
@@ -28,7 +28,7 @@ const PocketMoni = () => {
                     
                                 <div id="payWithDiv" className="flex justify-around">
                                     <div>
-                                        <button className="text-xl text-black" id="cardButton"><Link to="/Card">Card</Link></button>
+                                        <button className="text-xl text-black" id="cardButton"><Link style={{textDecoration:"none",color:"rgb(24, 5, 50)"}} to="/Card">Card</Link></button>
                                     </div>
                                     <div>
                                         <button style={{backgroundColor:"rgb(24, 5, 50)"}} className="text-xl " id="pocketMoniBtn">Pocketmoni</button>
@@ -42,7 +42,7 @@ const PocketMoni = () => {
                                 </div>
 
                                 <div>
-                                    <button id="continueBtn" className=" text-white w-full py-3 text-xl font-bold mt-4"><Link to="/ValidatePayment">Pay Now</Link></button>
+                                    <button id="continueBtn" className=" text-white w-full py-3 text-xl font-bold mt-4"><Link style={{textDecoration:"none",color:"white"}} to="/ValidatePayment">Pay Now</Link></button>
                                 </div>
 
                                 <div id="paymentLogoDiv" className="flex justify-around">

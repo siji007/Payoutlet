@@ -4,7 +4,7 @@ import "../App.css"
 const ValidatePayment = () => {
     return (
         <Fragment>
-            <div className="row">
+            <div className="row container">
                 <div className="col-lg-5 col-md-12 col-sm-12">
                     <div className="min-h-screen  py-10 flex flex-col">
                         <form className="p-12 bg-white mx-auto my-10 shadow-lg rounded" action="#">
@@ -40,7 +40,7 @@ const ValidatePayment = () => {
                                     <input style={{width:"400px"}} className=" border text-2xl w-full py-2 px-4 mt-2" type="number" id="otp" name="otp" placeholder="Enter OTP sent to your number."/>
                                 </div>
                                 <div>
-                                    <button id="continueBtn" className=" text-white w-full py-3 text-xl font-bold mt-4"><Link to="/FailedTransaction">Pay Now</Link></button>
+                                    <button id="continueBtn" className=" text-white w-full py-3 text-xl font-bold mt-4"><Link style={{textDecoration:"none",color:"white"}} to="/FailedTransaction">Pay Now</Link></button>
                                 </div>
 
                                 <div id="paymentLogoDiv" className="flex justify-around">

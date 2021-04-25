@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 const FailedTransac = () => {
     return (
         <Fragment>
-            <div className="row">
+            <div className="row container">
                 <div className="col-lg-5 col-md-12 col-sm-12">
                     <div className="min-h-screen  py-10 flex flex-col">
                         <form className="p-12 bg-white mx-auto my-10 shadow-lg rounded" action="#">
@@ -21,7 +21,7 @@ const FailedTransac = () => {
                                 </div>
 
                                 <div>
-                                    <button id="complaintBtn" className="w-full py-3 text-xl font-bold mt-4"><Link to="/Report">File a Complaint</Link></button>
+                                    <button id="complaintBtn" className="w-full py-3 text-xl font-bold mt-4"><Link style={{textDecoration:"none",color:"rgb(24, 5, 50)"}} to="/Report">File a Complaint</Link></button>
                                 </div>
 
                                 <div id="paymentLogoDiv" className="flex justify-around">

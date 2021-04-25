@@ -1,12 +1,13 @@
 import React,{Fragment} from 'react'
+import { Link } from 'react-router-dom'
 import "../App.css"
 
 const Report = () => {
     return (
         <Fragment>
-            <div className="row">
+            <div className="row container">
                 <div className="col-lg-5 col-md-12 col-sm-12">
-                    <div className="min-h-screen  py-10 flex flex-col">
+                    <div className="min-h-screen py-10 flex flex-col ">
                         <form className="p-12 bg-white mx-auto my-10 shadow-lg rounded" action="#">
                             <div className="space-y-6 mb-2 ">
                                 
@@ -19,11 +20,9 @@ const Report = () => {
                                     <textarea className="text-2xl mt-4 p-4" id="compaintBox" cols="33" rows="12" placeholder="Tell us what's on your mind"></textarea>
                                 </div>
                                 <div>
-                                    <button id="tryAgainBtn" className=" text-white w-full py-3 text-xl font-bold mt-4">Submit</button>
+                                    <button id="tryAgainBtn" className=" text-white w-full py-3 text-xl font-bold mt-4"> <Link style={{textDecoration:"none",color:"white"}}>Submit</Link></button>
                                 </div>
 
-                                
-                                <h1 style={{position:"absolute",top:"1047px"}} id="poweredText">Powered by etranzact</h1>
                             </div>
                         </form>
                     </div>
