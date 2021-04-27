@@ -1,5 +1,6 @@
 import React,{Fragment} from 'react'
-import BuyAirtime from "../component/BuyAirtime"
+
+import { Link } from 'react-router-dom'
 import "../App.css"
 const NavBar = () => {
 
@@ -10,14 +11,9 @@ const NavBar = () => {
                     <h1 className="text-3xl">Payoutlet</h1>
                 </div>
                 <div>
-                    <button className="btn btn-outline-info rounded-full text-xl font-bold">Sign in</button>
+                    <button className="btn btn-outline-info rounded-full text-xl font-bold"><Link style={{textDecoration:"none",color:"white"}} to="SignIn">Sign in</Link></button>
                 </div>
             </div>
-
-            {/* <BuyAirtime/> */}
-
-
-            
 
         </Fragment>
     )
