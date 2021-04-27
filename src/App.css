@@ -117,3 +117,50 @@
     outline: none;
     border-radius: 12px;
 }
+
+
+@media(max-width:991px) {
+    #pocketForm{
+        width: 100%;
+    }
+    #pocketMoniBtn{
+    
+        color: white;
+        padding-right: 20px;
+        padding-left: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-radius: 7px;
+        font: bold;
+    }
+    #cardButton{
+        color: white;
+        padding-right: 20px;
+        padding-left: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-radius: 7px;
+    }
+    #cardForm{
+        width: 100%;
+    }
+    #phoneNumber{
+        border-radius: 12px;
+        width:100%;
+        outline: none;
+    }
+    #cardNumber{
+        border-radius: 12px;
+        width:100%;
+        outline: none;
+    }
+    #validateForm{
+        width: 100%;
+    }
+    #reportForm{
+        width: 100%;
+    }
+    #compaintBox{
+        width: 100%;
+    }
+}

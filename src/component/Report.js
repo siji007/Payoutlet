@@ -9,13 +9,13 @@ const Report = () => {
             <div className="row mr-auto ml-auto">
                 <div className="col-lg-5 col-md-12 col-sm-12">
                     <div className="min-h-screen py-10 flex flex-col ">
-                        <form className="p-12 bg-white mx-auto my-10 shadow-lg rounded" action="#">
+                        <form id="reportForm" className="p-12 bg-white mx-auto my-10 shadow-lg rounded" action="#">
                             <div className="space-y-6 mb-2 ">
                                 
                                 <h1 style={{fontWeight:"bold"}} className=" text-3xl">File A Report</h1>
                                 <h1 className="text-xl text-muted">We like to improve our services for you.File your <br/> complaint here</h1>
                                 <div>
-                                    <input className=" border text-2xl w-full py-2 px-4 mt-2" type="email" id="email" name="email" placeholder="Enter Your Email Address"/>
+                                    <input className="leading-tight border text-2xl w-full py-2 px-4 mt-2" type="email" id="email" name="email" placeholder="Enter Your Email Address"/>
                                 </div>
                                 <div>
                                     <textarea className="text-2xl mt-4 p-4" id="compaintBox" cols="33" rows="12" placeholder="Tell us what's on your mind"></textarea>

@@ -5,10 +5,10 @@ import "../App.css"
 const PocketMoni = () => {
     return (
         <Fragment>
-            <div className="row mr-auto ml-auto ">
+            <div className="row mr-auto ml-auto">
                 <div className="col-lg-5 col-md-12 col-sm-12 push-md-12 push-sm-12">
                     <div className="min-h-screen  py-10 flex flex-col">
-                        <form className="p-12 bg-white mx-auto my-10 shadow-lg rounded" action="#">
+                        <form id="pocketForm" className="p-12 bg-white mx-auto my-10 shadow-lg rounded" action="#">
                             <div className="space-y-6 mb-2 ">
                                 <div className="">
                                     <div className="flex">
@@ -32,7 +32,7 @@ const PocketMoni = () => {
                                         <button className="text-xl text-black" id="cardButton"><Link style={{textDecoration:"none",color:"rgb(24, 5, 50)"}} to="/Card">Card</Link></button>
                                     </div>
                                     <div>
-                                        <button style={{backgroundColor:"rgb(24, 5, 50)"}} className="text-xl " id="pocketMoniBtn">Pocketmoni</button>
+                                        <button style={{backgroundColor:"rgb(24, 5, 50)"}} className="text-xl mr-2" id="pocketMoniBtn">Pocketmoni</button>
                                     </div>
                                 </div>
                                 <div>

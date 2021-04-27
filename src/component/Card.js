@@ -10,7 +10,7 @@ const Card = () => {
             <div className="row mr-auto ml-auto">
                 <div className="col-lg-5 col-md-12 col-sm-12">
                     <div className="min-h-screen  py-10 flex flex-col">
-                        <form className="p-12 bg-white mx-auto my-10  shadow-lg rounded " action="#">
+                        <form id="cardForm" className="p-12 bg-white mx-auto my-10  shadow-lg rounded" action="#">
                             <div className="space-y-6 mb-2 ">
                                 <div className="">
                                     <div className="flex">
