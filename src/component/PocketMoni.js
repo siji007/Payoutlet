@@ -36,10 +36,10 @@ const PocketMoni = () => {
                                     </div>
                                 </div>
                                 <div>
-                                    <input style={{width:"400px"}} className="border text-2xl w-full py-2 px-4 mt-2" type="number" id="mobileNumber" name="mobileNumber" placeholder="Enter Your PocketMoni Number"/>
+                                    <input style={{width:""}} className="border text-xl w-full py-2 px-4 mt-2" type="number" id="mobileNumber" name="mobileNumber" placeholder="Enter Your PocketMoni Number"/>
                                 </div>
                                 <div>
-                                    <input className="border text-2xl w-full py-2 px-4 mt-2" type="number" id="amount" name="amount" placeholder="Enter your Four-Digit PIN"/>
+                                    <input className="border text-xl w-full py-2 px-4 mt-2" type="number" id="amount" name="amount" placeholder="Enter your Four-Digit PIN"/>
                                 </div>
 
                                 <div>
@@ -79,7 +79,7 @@ const PocketMoni = () => {
                         <Carousel>
                         <Carousel.Item interval={1000}>
                             <img
-                            style={{height:"200px;"}}
+                            style={{}}
                             className="d-block w-100"
                             src="../img/transfer.jpg"
                             alt="First slide"
@@ -91,7 +91,7 @@ const PocketMoni = () => {
                         </Carousel.Item>
                         <Carousel.Item interval={500}>
                             <img
-                            style={{height:"200px;"}}
+                            style={{}}
                             className="d-block w-100"
                             src="../img/handphone.jpg"
                             alt="Second slide"
@@ -102,7 +102,7 @@ const PocketMoni = () => {
                         </Carousel.Item>
                         <Carousel.Item>
                             <img
-                            style={{height:"200px;"}}
+                            style={{}}
                             className="d-block w-100"
                             src="../img/success.jpg"
                             alt="Third slide"

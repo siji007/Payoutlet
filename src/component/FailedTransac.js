@@ -59,7 +59,7 @@ const FailedTransac = () => {
                         <Carousel>
                         <Carousel.Item interval={1000}>
                             <img
-                            style={{height:"200px;"}}
+                            style={{}}
                             className="d-block w-100"
                             src="../img/transfer.jpg"
                             alt="First slide"
@@ -71,7 +71,7 @@ const FailedTransac = () => {
                         </Carousel.Item>
                         <Carousel.Item interval={500}>
                             <img
-                            style={{height:"200px;"}}
+                            style={{}}
                             className="d-block w-100"
                             src="../img/handphone.jpg"
                             alt="Second slide"
@@ -82,7 +82,7 @@ const FailedTransac = () => {
                         </Carousel.Item>
                         <Carousel.Item>
                             <img
-                            style={{height:"200px;"}}
+                            style={{}}
                             className="d-block w-100"
                             src="../img/success.jpg"
                             alt="Third slide"

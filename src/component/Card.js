@@ -38,19 +38,19 @@ const Card = () => {
                                     </div>
                                 </div>
                                 <div>
-                                    <input className="border text-2xl w-full py-2 px-4 mt-2" type="number" id="cardNumber" name="cardNumber" placeholder="Enter Your Card Number"/>
+                                    <input className="border text-xl w-full py-2 px-4 mt-2" type="number" id="cardNumber" name="cardNumber" placeholder="Enter Your Card Number"/>
                                 </div>
 
                                 <div className="flex justify-between">
                                     <div>
-                                        <input style={{outline:"none",borderRadius:"12px",width:"140px"}} placeholder="MM/YY" className="text-2xl border border-2 py-2 px-4 "/>
+                                        <input style={{outline:"none",borderRadius:"12px",width:"140px"}} placeholder="MM/YY" className="text-xl border border-2 py-2 px-4 "/>
                                     </div>
                                     <div>
-                                        <input style={{outline:"none",borderRadius:"12px",width:"140px"}} placeholder="CVV" className="text-2xl border border-2 py-2 px-4 "/>
+                                        <input style={{outline:"none",borderRadius:"12px",width:"140px"}} placeholder="CVV" className="text-xl border border-2 py-2 px-4 "/>
                                     </div>
                                 </div>
                                 <div>
-                                    <input className="border text-2xl w-full py-2 px-4 mt-2" type="number" id="phoneNumber" name="phoneNumber" placeholder="Phone Number"/>
+                                    <input className="border text-xl w-full py-2 px-4 mt-2" type="number" id="phoneNumber" name="phoneNumber" placeholder="Phone Number"/>
                                 </div>
 
                                 <div>
@@ -58,7 +58,7 @@ const Card = () => {
                                 </div>
                             </div>
 
-                            <div id="paymentLogoDiv" className="flex justify-around">
+                            <div id="paymentLogoDiv" className="flex justify-between">
                                 <div>
                                     <img className="mt-3" style={{width:"70px"}} src="../img/mastercard.png"></img>
                                     
@@ -91,7 +91,7 @@ const Card = () => {
                         <Carousel>
                         <Carousel.Item interval={1000}>
                             <img
-                            style={{height:"200px;"}}
+                            style={{}}
                             className="d-block w-100"
                             src="../img/transfer.jpg"
                             alt="First slide"
@@ -103,7 +103,7 @@ const Card = () => {
                         </Carousel.Item>
                         <Carousel.Item interval={500}>
                             <img
-                            style={{height:"200px;"}}
+                            style={{}}
                             className="d-block w-100"
                             src="../img/handphone.jpg"
                             alt="Second slide"
@@ -114,7 +114,7 @@ const Card = () => {
                         </Carousel.Item>
                         <Carousel.Item>
                             <img
-                            style={{height:"200px;"}}
+                            style={{}}
                             className="d-block w-100"
                             src="../img/success.jpg"
                             alt="Third slide"

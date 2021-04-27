@@ -38,7 +38,7 @@ const ValidatePayment = () => {
                                 </div>
                                 <h1 className="font-bold text-2xl mt-8">Validate Payment</h1>
                                 <div>
-                                    <input style={{width:"400px"}} className=" border text-2xl w-full py-2 px-4 mt-2" type="number" id="otp" name="otp" placeholder="Enter OTP sent to your number."/>
+                                    <input style={{width:"400px"}} className=" border text-xl w-full py-2 px-4 mt-2" type="number" id="otp" name="otp" placeholder="Enter OTP sent to your number."/>
                                 </div>
                                 <div>
                                     <button id="continueBtn" className=" text-white w-full py-3 text-xl font-bold mt-4"><Link style={{textDecoration:"none",color:"white"}} to="/FailedTransaction">Pay Now</Link></button>
@@ -78,7 +78,7 @@ const ValidatePayment = () => {
                         <Carousel>
                         <Carousel.Item interval={1000}>
                             <img
-                            style={{height:"200px;"}}
+                            style={{}}
                             className="d-block w-100"
                             src="../img/transfer.jpg"
                             alt="First slide"
@@ -90,7 +90,7 @@ const ValidatePayment = () => {
                         </Carousel.Item>
                         <Carousel.Item interval={500}>
                             <img
-                            style={{height:"200px;"}}
+                            style={{}}
                             className="d-block w-100"
                             src="../img/handphone.jpg"
                             alt="Second slide"
@@ -101,7 +101,7 @@ const ValidatePayment = () => {
                         </Carousel.Item>
                         <Carousel.Item>
                             <img
-                            style={{height:"200px;"}}
+                            style={{}}
                             className="d-block w-100"
                             src="../img/success.jpg"
                             alt="Third slide"
