@@ -28,6 +28,10 @@
 #amount:focus{
     outline: none;
 }
+#digitPin{
+    border-radius: 12px;
+    outline: none;
+}
 #mobileNumber{
     border-radius: 12px;
 }
@@ -132,6 +136,14 @@
         padding-bottom: 10px;
         border-radius: 7px;
         font: bold;
+        font-size: 19px;
+
+    }
+    #cvv{
+        font-size: 15px;
+    }
+    #mmyy{
+        font-size: 15px;
     }
     #cardButton{
         color: white;
@@ -140,6 +152,7 @@
         padding-top: 10px;
         padding-bottom: 10px;
         border-radius: 7px;
+        font-size: 19px;
     }
     #cardForm{
         width: 100%;
@@ -147,12 +160,14 @@
     #phoneNumber{
         border-radius: 12px;
         width:100%;
+        font-size: 15px;
         outline: none;
     }
     #cardNumber{
         border-radius: 12px;
         width:100%;
         outline: none;
+        font-size: 15px;
     }
     #validateForm{
         width: 100%;
@@ -161,6 +176,28 @@
         width: 100%;
     }
     #compaintBox{
+        font-size: 15px;
         width: 100%;
+    }
+    #digitPin{
+        border-radius: 12px;
+        outline: none;
+        font-size: 15px;
+    }
+    #mobileNumber{
+        font-size: 15px;
+    }
+    #otp{
+        outline: none;
+        border-radius: 12px;
+        font-size: 15px;
+    }
+    #email{
+        outline: none;
+        border-radius: 12px;
+        font-size: 15px;
+    }
+    #amount{
+        font-size: 15px;
     }
 }

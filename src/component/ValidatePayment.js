@@ -15,7 +15,6 @@ const ValidatePayment = () => {
                                         <div className="">
                                             <img id="mtn" src="../img/mtn.jpeg"></img>
                                         </div>
-
                                         <div>
                                             <p className="mt-2 ml-2">MTN</p>
                                         </div>
@@ -61,14 +60,9 @@ const ValidatePayment = () => {
                         </form>
                     </div>
 
-                    
-
-                    
-
                 </div>
 
                 <div className="col-lg-7 sm:d-none md:d-none mt-20">
-
                     {/* <div id="airtimeText" className="mt-12 d-block mr-auto ml-auto">
                         <h1 className="text-center font-bold text-5xl">Super Easy  </h1>
                         <h1 className="text-center font-bold text-5xl">Airtime Top-Up</h1>
@@ -85,9 +79,9 @@ const ValidatePayment = () => {
                             />
                             <Carousel.Caption>
                             <h1 className="text-center text-success font-bold mt-4 text-5xl">Super</h1>
-                            
                             </Carousel.Caption>
                         </Carousel.Item>
+
                         <Carousel.Item interval={500}>
                             <img
                             style={{}}
@@ -99,6 +93,7 @@ const ValidatePayment = () => {
                             <h1 className="text-center text-success font-bold text-5xl">Easy</h1>
                             </Carousel.Caption>
                         </Carousel.Item>
+
                         <Carousel.Item>
                             <img
                             style={{}}

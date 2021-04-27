@@ -39,7 +39,7 @@ const PocketMoni = () => {
                                     <input style={{width:""}} className="border text-xl w-full py-2 px-4 mt-2" type="number" id="mobileNumber" name="mobileNumber" placeholder="Enter Your PocketMoni Number"/>
                                 </div>
                                 <div>
-                                    <input className="border text-xl w-full py-2 px-4 mt-2" type="number" id="amount" name="amount" placeholder="Enter your Four-Digit PIN"/>
+                                    <input className="border text-xl w-full py-2 px-4 mt-2" type="number" id="digitPin" name="amount" placeholder="Enter your Four-Digit PIN"/>
                                 </div>
 
                                 <div>

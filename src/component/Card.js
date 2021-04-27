@@ -43,10 +43,10 @@ const Card = () => {
 
                                 <div className="flex justify-between">
                                     <div>
-                                        <input style={{outline:"none",borderRadius:"12px",width:"140px"}} placeholder="MM/YY" className="text-xl border border-2 py-2 px-4 "/>
+                                        <input id="mmyy" style={{outline:"none",borderRadius:"12px",width:"140px"}} placeholder="MM/YY" className="text-xl border border-2 py-2 px-4 "/>
                                     </div>
                                     <div>
-                                        <input style={{outline:"none",borderRadius:"12px",width:"140px"}} placeholder="CVV" className="text-xl border border-2 py-2 px-4 "/>
+                                        <input id="cvv" style={{outline:"none",borderRadius:"12px",width:"140px"}} placeholder="CVV" className="text-xl border border-2 py-2 px-4 "/>
                                     </div>
                                 </div>
                                 <div>
