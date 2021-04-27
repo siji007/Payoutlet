@@ -8,7 +8,7 @@ const ValidatePayment = () => {
             <div className="row  mr-auto ml-auto">
                 <div className="col-lg-5 col-md-12 col-sm-12">
                     <div className="min-h-screen  py-10 flex flex-col">
-                        <form className="p-12 bg-white mx-auto my-10 shadow-lg rounded" action="#">
+                        <form style={{width:""}} className="p-12 bg-white sm:w-full md:w-full mx-auto my-10 shadow-lg rounded" action="#">
                             <div className="space-y-6 mb-2 ">
                                 <div className="">
                                     <div className="flex">
@@ -38,7 +38,7 @@ const ValidatePayment = () => {
                                 </div>
                                 <h1 className="font-bold text-2xl mt-8">Validate Payment</h1>
                                 <div>
-                                    <input style={{width:"400px"}} className=" border text-xl w-full py-2 px-4 mt-2" type="number" id="otp" name="otp" placeholder="Enter OTP sent to your number."/>
+                                    <input style={{}} className=" border text-xl w-full py-2 px-4 mt-2 " type="number" id="otp" name="otp" placeholder="Enter OTP sent to your number."/>
                                 </div>
                                 <div>
                                     <button id="continueBtn" className=" text-white w-full py-3 text-xl font-bold mt-4"><Link style={{textDecoration:"none",color:"white"}} to="/FailedTransaction">Pay Now</Link></button>
