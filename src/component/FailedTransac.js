@@ -37,7 +37,7 @@ const FailedTransac = () => {
                                         <img className="mt-4" style={{width:"70px"}} src="../img/verve.png"></img>
                                     </div>
                                 </div>
-                                <h1 style={{position:"absolute",top:"1047px"}} id="poweredText">Powered by etranzact</h1>
+                                {/* <h1 style={{position:"absolute",top:"1047px"}} id="poweredText">Powered by etranzact</h1> */}
                             </div>
                         </form>
                     </div>

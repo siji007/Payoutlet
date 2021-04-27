@@ -58,7 +58,7 @@ const PocketMoni = () => {
                                         <img className="mt-4" style={{width:"70px"}} src="../img/verve.png"></img>
                                     </div>
                                 </div>
-                                <h1 style={{position:"absoute",marginTop:"140px"}} id="poweredText">Powered by etranzact</h1>
+                                {/* <h1 style={{position:"absoute",marginTop:"140px"}} id="poweredText">Powered by etranzact</h1> */}
 
                             </div>
                         </form>

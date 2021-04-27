@@ -56,7 +56,7 @@ const ValidatePayment = () => {
                                         <img className="mt-4" style={{width:"70px"}} src="../img/verve.png"></img>
                                     </div>
                                 </div>
-                                <h1 id="poweredText">Powered by etranzact</h1>
+                                {/* <h1 id="poweredText">Powered by etranzact</h1> */}
                             </div>
                         </form>
                     </div>
