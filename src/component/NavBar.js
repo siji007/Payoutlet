@@ -6,7 +6,7 @@ const NavBar = () => {
 
     return (
         <Fragment>
-            <div className="flex justify-between px-10 bg-gray-200 py-4">
+            <div className="flex justify-between px-10 text-white py-4" style={{background:"rgb(24, 5, 50)"}}>
                 <div>
                     <h1 className="text-3xl">Payoutlet</h1>
                 </div>

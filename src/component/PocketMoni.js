@@ -80,7 +80,7 @@ const PocketMoni = () => {
                         <Carousel.Item interval={1000}>
                             <img
                             style={{}}
-                            className="d-block w-100"
+                            className="d-block w-100 md:d-none"
                             src="../img/transfer.jpg"
                             alt="First slide"
                             />

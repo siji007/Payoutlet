@@ -87,7 +87,7 @@ const Card = () => {
                     </div>
                     <img src="../img/transfer.jpg"></img> */}
 
-<div>
+                    <div>
                         <Carousel>
                         <Carousel.Item interval={1000}>
                             <img
